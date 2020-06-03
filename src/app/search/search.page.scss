@@ -1,0 +1,87 @@
+ion-content {
+    ion-list-header {
+        height: 55px;
+        padding-bottom: 0px;
+        padding-left: 11px;
+
+        ion-label {
+            font-size: 14px;
+            font-weight: 700;
+            margin: 8px 0px;
+        }
+
+        ion-button {
+            font-size: 13px;
+            --background: #F1F1F1;
+            --color: black;
+        }
+
+        
+    }
+
+    .scroll_box {
+        display: flex;
+        overflow: scroll;
+        width: 100%;
+
+        .story_box {
+            position: relative;
+            margin-left: 5px;
+            width: 130px;
+            min-width: 130px;
+            height: 200px;
+            border-radius: 4px;
+
+            ion-avatar {
+                position: absolute;
+                bottom: 30px;
+                left: 40px;
+                border: 2px solid white;
+            }
+
+            ion-badge {
+                position: absolute;
+                bottom: 22px;
+                left: 53px;
+                --color: white;
+                --background: #DF4662;
+                --padding-start: 4px;
+                --padding-end: 4px;
+            }
+
+            p {
+                position: absolute;
+                bottom: 5px;
+                color: white;
+                margin: 0px;
+                font-size: 12px;
+                width: 100%;
+                text-align: center;
+                font-weight: 500;
+                text-shadow: 0px 1px 7px black;
+            }
+        }
+
+        .trend_box {
+            position: relative;
+            width: 120px;
+            height: 200px;
+            margin-right: 1px;
+            min-width: 120px;
+            border-radius: 2px;
+
+            p {
+                position: absolute;
+                bottom: 10px;
+                color: white;
+                right: 10px;
+                margin: 0px;
+                font-size: 12px;
+                width: 100%;
+                text-align: right;
+                font-weight: 500;
+                text-shadow: 1px 1px 2px black;
+            }
+        }
+    }
+}
